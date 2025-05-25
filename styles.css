@@ -13,10 +13,19 @@
 :root {
     /* #191f36 */
     /* #262B40 */
-    --bg-color: #1a1936;
-    --snd-bg-color: #262640;
-    --text-color: #fff;
-    --main-color: #59B2F4;
+    /* --bg-color: #1a1936; */
+    /* --bg-color: white; */
+    /* --snd-bg-color: #262640; */
+/* --snd-bg-color:   #e6e6e6; */
+    /* --text-color: #fff; */
+    /* --text-color: #333333; */
+    /* --main-color: #59B2F4; */
+    /* --main-color: #007BFF; */
+    --bg-color: #2a2a2a; /* Charcoal Gray */
+    --snd-bg-color: #3c3c3c; /* Dark Gray */
+    --text-color: #ffffff; /* White */
+    --main-color: #007BFF; /* Bright Blue */
+    --accent-color: #ff6f61; /* Coral */
 }
 
 html {
