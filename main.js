@@ -56,7 +56,7 @@ const typed= new Typed('.multiple-text',{
     loop:true
 })
 /*-------email-*/
-function sendMail(){
+function sendMail(event){
 
     var name=document.getElementById("name").value;
     var address=document.getElementById("email").value;
@@ -65,6 +65,7 @@ function sendMail(){
     var message=document.getElementById("message").value;
     if (name == "" ||address == ""||mobile == ""||subject == ""||message == "" ){
         alert("Please fill in the missing blank.")
+         event.preventDefault(); 
         return;
     }
 
