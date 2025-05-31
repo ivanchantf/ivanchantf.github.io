@@ -354,6 +354,9 @@ span.client-side-usage{
     background: var(--snd-bg-color);
 
 }
+#last-review{
+      font-size:1.6rem;
+}
 .footer-text{
     font-size:1.6rem;
 }
