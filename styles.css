@@ -21,11 +21,17 @@
     /* --text-color: #333333; */
     /* --main-color: #59B2F4; */
     /* --main-color: #007BFF; */
-    --bg-color: #2a2a2a; /* Charcoal Gray */
-    --snd-bg-color: #3c3c3c; /* Dark Gray */
-    --text-color: #ffffff; /* White */
-    --main-color: #007BFF; /* Bright Blue */
-    --accent-color: #ff6f61; /* Coral */
+    /* --bg-color: #2a2a2a; 
+    --snd-bg-color: #3c3c3c;
+    --text-color: #ffffff; 
+    --main-color: #007BFF; 
+    --accent-color: #ff6f61; */
+
+        --bg-color: #1a1a1a; /* Dark Charcoal */
+    --snd-bg-color: #2b2b2b; /* Darker Gray */
+    --text-color: #e0e0e0; /* Light Gray */
+    --main-color: #1e90ff; /* Dodger Blue */
+    --accent-color: #ff6347; /* Tomato */
 }
 
 html {
