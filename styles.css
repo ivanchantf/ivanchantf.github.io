@@ -44,6 +44,11 @@ body{
     background-repeat: repeat-y; */
     background-size: 100% ;
     color: var(--text-color);
+      font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+           
 }
 
 section{
