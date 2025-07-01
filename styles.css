@@ -235,6 +235,7 @@ span{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
+
 .skills-box i{
     font-size:7rem;
     color: var(--main-color);
@@ -617,8 +618,8 @@ a.unchanged-anchor, a.unchanged-anchor:visited, a.unchanged-anchor:hover, a.unch
         border-radius: 12px;
         background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
               var(--angle),
-              yellow,
-              rgb(34, 0, 255)
+              #ffffce,
+              #daffce
             ) border-box;
         animation: 10s rotate linear infinite;
 }
