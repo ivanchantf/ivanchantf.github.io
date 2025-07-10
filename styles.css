@@ -618,8 +618,8 @@ a.unchanged-anchor, a.unchanged-anchor:visited, a.unchanged-anchor:hover, a.unch
         border-radius: 12px;
         background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
               var(--angle),
-              #ffffce,
-              #daffce
+                rgb(5, 5, 64),
+              #ffffff
             ) border-box;
         animation: 10s rotate linear infinite;
 }
