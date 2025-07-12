@@ -768,3 +768,37 @@ inherits: false;
    
     
 }
+.projects-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 2rem; /* Space between items */
+}
+
+.project-item {
+    display: flex; /* Align items in a row */
+    width: 100%;
+}
+
+.project-image {
+    flex: 1; /* Take up equal space */
+}
+
+.project-caption {
+    flex: 1; /* Take up equal space */
+    padding: 1rem; /* Space around the caption */
+    background: var(--snd-bg-color); /* Optional background */
+    border-radius: 0.5rem; /* Rounded corners */
+
+    font-size: large;
+}
+.project-title{
+    color: white;
+    text-decoration: underline;
+}
+.project-desc{
+    color: rgb(255, 255, 255);
+}
+.project-image img {
+    width: 100%; /* Responsive image */
+    border-radius: 0.5rem; /* Optional rounded corners for images */
+}
