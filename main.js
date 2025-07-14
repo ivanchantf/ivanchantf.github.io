@@ -121,10 +121,17 @@ function copyTextFunction() {
     alert("Access code copied! ");
 }
 
-window.addEventListener('dragover', function (event) {
+// Prevent drag-and-drop reload
+window.addEventListener('dragover', function(event) {
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'none'; // Optional: Change the drop effect
+});
+
+window.addEventListener('drop', function(event) {
     event.preventDefault();
 });
 
-window.addEventListener('drop', function (event) {
+// Optional: Prevent context menu on right-click
+window.addEventListener('contextmenu', function(event) {
     event.preventDefault();
 });
