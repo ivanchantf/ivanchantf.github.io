@@ -507,6 +507,15 @@ span.client-side-usage{
       .cert-img{
         width: 100%;
     }
+    .nav-title{
+        display: block;
+        text-align: right;
+    }
+    .nav-title::before {
+    content: "• "; /* Use any character or text as the prefix */
+   padding-right: 5px; 
+    color: rgb(255, 255, 255); /* Change color if needed */
+}
 
 }
 @media (max-width:617px) {
@@ -801,4 +810,9 @@ inherits: false;
 .project-image img {
     width: 100%; /* Responsive image */
     border-radius: 0.5rem; /* Optional rounded corners for images */
+}
+.nav-title{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
 }
