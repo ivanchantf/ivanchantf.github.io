@@ -121,7 +121,7 @@ span{
 }
 .home-img img{
     width: 25vw;
-    animation:floatImage 4s ease-in-out infinite;
+    /* animation:floatImage 60s ease-in-out infinite; */
    margin-right: 20px;
    margin-left: 20px;
    border-radius: 50%;
@@ -515,7 +515,7 @@ span.client-side-usage{
     .nav-title::before {
     content: "• "; /* Use any character or text as the prefix */
    padding-right: 5px; 
-    color: rgb(255, 255, 255); /* Change color if needed */
+    color: var(--text-color)/* Change color if needed */
 }
 
 }
@@ -581,13 +581,13 @@ span.client-side-usage{
 
 }
 .project-title{
-    color: blue;
+    /* color: blue; */
     font-weight: bold;
     text-decoration: underline;
     /* margin-bottom: 5px; */
 }
 .project-desc{
-    color: blue;
+    /* color: blue; */
  
 }
 .contact-tips{
@@ -802,18 +802,24 @@ inherits: false;
     font-size: large;
 }
 .project-title{
-    color: white;
+    color: var(--text-color);
     text-decoration: underline;
 }
 .project-desc{
-    color: rgb(255, 255, 255);
+    color: var(--text-color);
 }
 .project-image img {
     width: 100%; /* Responsive image */
     border-radius: 0.5rem; /* Optional rounded corners for images */
 }
 .nav-title{
-    color: white;
+    color:  var(--text-color);
     font-weight: bold;
     font-size: x-large;
+}
+.major{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 3px;
+    padding: 2px;
 }
